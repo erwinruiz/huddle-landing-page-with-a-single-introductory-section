@@ -22,11 +22,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/desktop-design.png)
+![](./screenshots/desktop-design-active-state.png)
+![](./screenshots/mobile-design.png)
+![](./screenshots/mobile-design-active-state.png)
 
 ### Links
 
-- Solution URL: [Click here]()
+- Solution URL: [Click here](https://erwinruiz.github.io/huddle-landing-page-with-a-single-introductory-section/)
 
 ## My process
 
