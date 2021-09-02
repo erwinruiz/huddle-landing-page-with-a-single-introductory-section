@@ -26,27 +26,27 @@ section {
 section .images {
   margin-bottom: 55px;
 }
-section .logo {
+section .images .logo {
   height: 32px;
   margin-bottom: 50px;
 }
-section .illustration {
+section .images .illustration {
   width: 100%;
 }
-section h1 {
+section .content h1 {
   font-family: "Poppins", sans-serif;
   color: white;
   text-align: center;
   margin-bottom: 20px;
 }
-section p {
+section .content p {
   color: white;
   text-align: center;
   line-height: 1.6;
   font-size: 16px;
   margin-bottom: 25px;
 }
-section button {
+section .content button {
   background-color: white;
   border: none;
   height: 36px;
@@ -59,7 +59,7 @@ section button {
   cursor: pointer;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.219);
 }
-section button:hover {
+section .content button:hover {
   background-color: var(--SoftMagenta);
   color: white;
 }
@@ -89,4 +89,54 @@ footer .social_media i:hover {
 }
 .attribution {
   display: none;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url("./images/bg-desktop.svg");
+  }
+  section {
+    width: 1290px;
+    margin-bottom: 25px;
+    display: flex;
+  }
+  section .images {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  section .images .logo {
+    height: 48px;
+    margin-bottom: 90px;
+  }
+  section .content {
+    margin: auto 0;
+    width: 74%;
+    padding-left: 60px;
+  }
+  section .content h1 {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 87%;
+  }
+  section .content p {
+    text-align: left;
+    margin-bottom: 20px;
+    width: 87%;
+  }
+  section .content button {
+    height: 48px;
+    width: 180px;
+    font-size: 16px;
+    display: initial;
+    margin: 0;
+  }
+  footer {
+    width: 1200px;
+    align-items: flex-end;
+  }
+  footer .social_media i {
+    height: 30px;
+    width: 30px;
+  }
 }
